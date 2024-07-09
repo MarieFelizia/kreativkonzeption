@@ -1,5 +1,5 @@
 body {
-    font-family: 'MeineSchrift';
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 19px;
     line-height: 1.6;
     margin: 0;
@@ -15,14 +15,14 @@ html, body {
 }
 
 
-@font-face {
+/*@font-face {
     font-family: 'MeineSchrift';
     src: url(/3394-font.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
     
 
-}
+}*/
 
 .banner {
     position: relative;
