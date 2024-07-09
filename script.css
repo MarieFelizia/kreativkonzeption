@@ -229,3 +229,20 @@ footer {
     bottom: auto;
     width: 100%;
   }
+
+  /* Beispiel Media Queries für unterschiedliche Bildschirmgrößen */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%; /* Beispiel: Container breiter machen für kleinere Bildschirme */
+        margin: 10px auto;
+    }
+    .step {
+        flex-direction: column; /* Beispiel: Steps in Spalten statt Reihen anordnen */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .banner-content h1 {
+        font-size: 20px; /* Beispiel: Schriftgröße des Headers für kleine Bildschirme anpassen */
+    }
+}
