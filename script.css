@@ -17,13 +17,14 @@ body {
 }
 
 .banner {
-    background: url(/Bild\ 08.07.24\ um\ 12.00.jpeg) no-repeat center center/cover;
-    height: 300px;
+    
     position: relative;
     color: white;
 }
 
 .banner-content {
+    background: url(/Bild\ 08.07.24\ um\ 12.00.jpeg) no-repeat center center/cover;
+    height: 300px;
     position: absolute;
     top: 50%;
     left: 50%;
