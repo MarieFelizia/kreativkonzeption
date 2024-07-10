@@ -62,6 +62,7 @@ html, body {
 }
 
 .banner {
+    background: url(/Bild\ 08.07.24\ um\ 12.00.jpeg) no-repeat center center/cover;
     position: relative;
     height: 300px; /* Set the height of the banner */
     overflow: hidden; /* Hide any overflow */
