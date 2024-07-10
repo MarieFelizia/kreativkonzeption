@@ -1,9 +1,9 @@
-document.addEventListener('DOMContentLoaded', () => {
+/*document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         window.scrollTo(0, 0);
     }, 100); // Hier wurde ein Timeout von 100 Millisekunden eingefügt, um sicherzustellen, dass die Seite vollständig geladen ist
 });
-
+*/
 
 function toggleDetails(element) {
     const details = element.nextElementSibling;
@@ -34,10 +34,10 @@ function toggleDetails(element) {
                 element.classList.remove('active');
                 details.classList.remove('active');
             }
-        }
+        }}};
 
        
-        document.addEventListener('DOMContentLoaded', function() {
+      /*  document.addEventListener('DOMContentLoaded', function() {
             // Funktionen für jeden Abschnitt
             function scrollToIdee() {
                 const ideeSection = document.getElementById('#idee');
@@ -131,6 +131,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const finaleUmsetzungLink = document.querySelector('.navbar a[href="#finale-umsetzung"]');
     finaleUmsetzungLink.addEventListener('click', scrollToFinaleUmsetzung);
-});
+})
 
-
+*/
