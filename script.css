@@ -66,7 +66,7 @@ html, body {
         background-size: cover;
         position: relative;
         height: 300px; /* Set the height of the banner */
-        overflow: hidden; /* Hide any overflow */
+        overflow: inherit; /* Hide any overflow */
         color: white;
         text-align: center;
         display: flex;
