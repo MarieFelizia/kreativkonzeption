@@ -61,18 +61,20 @@ html, body {
 
 }
 
-.banner {
-    background: url(/Bild\ 08.07.24\ um\ 12.00.jpeg) no-repeat center center/cover;
-    position: relative;
-    height: 300px; /* Set the height of the banner */
-    overflow: hidden; /* Hide any overflow */
-    color: white;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px; /* Adjust this value as needed */
-}
+    .banner {
+        background: url('Bild 08.07.24 um 12.00.jpeg') no-repeat center center;
+        background-size: cover;
+        position: relative;
+        height: 300px; /* Set the height of the banner */
+        overflow: hidden; /* Hide any overflow */
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px; /* Adjust this value as needed */
+    }
+    
 
 .banner-image {
     position: absolute;
