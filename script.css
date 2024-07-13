@@ -62,9 +62,8 @@ html, body {
 }
 
     .banner {
-        background: url('Bild 08.07.24 um 12.00.jpeg') no-repeat center center;
         background-size: cover;
-        position: relative;
+        position:static;
         height: 300px; /* Set the height of the banner */
         overflow: inherit; /* Hide any overflow */
         color: white;
@@ -72,7 +71,7 @@ html, body {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: 20px; /* Adjust this value as needed */
+        margin-bottom: 40px; /* Adjust this value as needed */
     }
     
 
@@ -88,11 +87,13 @@ html, body {
 }
 
 .banner-content {
-    position: relative;
+    position: absolute;
     z-index: 1; /* Ensure the text is above the image */
     font-size: 25px;
     font-weight: bolder;
     text-align: center;
+
+    
 }
 
 .banner-content h1 {
